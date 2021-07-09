@@ -1,0 +1,58 @@
+#app1 {
+  border: 1px solid red;
+}
+#app1 .output {
+}
+#app1 .actions {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::after,
+::before {
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+#app2 {
+  border: 1px solid black;
+}
+#app2 .tab-bar {
+  display: flex;
+}
+#app2 .tab-bar > li {
+  border: 1px solid gray;
+  width: 50%;
+}
+#app2 .tab-bar > li.selected {
+  background: gray;
+  color: white;
+}
+#app2 .tab-content {
+}
+#app2 .tab-content > li {
+  display: none;
+}
+#app2 .tab-content > li.active {
+  display: block;
+}
+
+body {
+  overflow: hidden;
+}
+body > .page {
+  display: flex;
+  flex-wrap: wrap;
+}
+body > .page > section {
+  width: 50vw;
+  height: 50vh;
+}
+
+/*# sourceMappingURL=index.f2e4785c.css.map */
